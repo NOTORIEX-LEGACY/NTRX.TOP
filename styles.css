@@ -24,6 +24,7 @@ header h1:nth-of-type(1){
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     position: relative;
+    animation-delay: .3s;
     left: -4000px;
     /* opacity: 0; */
 }
@@ -72,6 +73,26 @@ body {
     /* max-width: auto; */
     background-color: white;
     margin-bottom: 20px;
+
+    /* ANIMATION */
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    /* animation-delay: 1s; */
+    position: relative;
+    bottom: -10px;
+    opacity: 0;
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+        bottom: -10px;
+    }
+    100%{
+        opacity: 1;
+        bottom: 0px;
+    }
 }
 
 footer{
