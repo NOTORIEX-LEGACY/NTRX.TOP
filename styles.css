@@ -70,7 +70,7 @@ body {
     width: 95%;
     margin: auto;
     /* max-width: auto; */
-    /* background-color: white; */
+    background-color: white;
     margin-bottom: 20px;
 
     /* ANIMATION */
@@ -82,7 +82,7 @@ body {
     bottom: -10px;
     opacity: 0;
     /* background-color: #F7F2E7; */
-    background-color: #f4f1ec;
+    /* background-color: #f4f1ec; */
 
 }
 
@@ -144,5 +144,22 @@ footer p{
 @media only screen and (min-width: 768px){
     .wrapper{
         width: 80%;
+    }
+
+    main {
+        display: grid;
+        /* grid-template-columns: 430px 150px; */
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #main-content{
+        /* background-color: white; */
+        grid-column: 1;
+    }
+
+    #side-content{
+        background-color: #F7F2E7;
+        grid-column: 2;
     }
 }
