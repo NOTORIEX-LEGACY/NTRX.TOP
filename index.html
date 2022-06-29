@@ -30,6 +30,31 @@
             $('.tmbuy').load('https://www.google.com/');
         });
     </script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            let background_img = Math.trunc((Math.random() * 3) + 1);
+            // console.log(backgroundimg);
+
+            // $(document).load(function(){
+                switch(background_img){
+                    case 1:
+                        $("body").css("background", "url('img/steady-hand-co-nI-mPs7X-js-unsplash.jpg')");
+                        break;
+                    case 2:
+                        $("body").css("background", "url('img/the-graphic-space-S9vdd_wvuwM-unsplash.jpg')");
+                        break;
+                    case 3:
+                        $("body").css("background", "url('img/ariel-acosta-deSeONcUq3Y-unsplash.jpg')");
+                        break;
+                }
+                $("body").css("background-position", "center");
+                $("body").css("background-repeat", "no-repeat");
+                $("body").css("background-size", "cover");
+            // })
+        })
+    </script>
 </head>
 <body>
     <div class = "wrapper">

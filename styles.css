@@ -64,14 +64,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #F7F2E7;
 }
 
 .wrapper{
     width: 95%;
     margin: auto;
     /* max-width: auto; */
-    background-color: white;
+    /* background-color: white; */
     margin-bottom: 20px;
 
     /* ANIMATION */
@@ -82,6 +81,9 @@ body {
     position: relative;
     bottom: -10px;
     opacity: 0;
+    /* background-color: #F7F2E7; */
+    background-color: #f4f1ec;
+
 }
 
 @keyframes appear{
