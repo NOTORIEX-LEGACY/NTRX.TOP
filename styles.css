@@ -39,6 +39,7 @@ header h1:nth-of-type(1){
     position: relative;
     animation-delay: .3s;
     left: -4000px;
+    word-wrap: break-word;
     /* opacity: 0; */
 }
 
@@ -49,6 +50,7 @@ header h1:nth-of-type(2){
     position: relative;
     animation-delay: .8s;
     right: -4000px;
+    word-wrap: break-word;
 }
 
 @keyframes header-animate{
@@ -126,6 +128,7 @@ footer p{
     color: white;
     font-size: 20px;
     font-weight: bold;
+    word-wrap: break-word;
 
     /* ANIMATION */
     animation-name: footer-up;
@@ -155,6 +158,12 @@ footer p{
     color: #674A40;
 }
 
+#side-content{
+    background-color: #F7F2E7;
+    word-wrap: break-word;
+    text-align: center;
+}
+
 @media only screen and (min-width: 768px){
     .wrapper{
         width: 80%;
@@ -173,7 +182,7 @@ footer p{
     }
 
     #side-content{
-        background-color: #F7F2E7;
+        text-align: justify;
         grid-column: 2;
     }
 }
