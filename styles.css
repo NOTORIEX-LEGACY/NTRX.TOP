@@ -1,13 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 header{
     /* text-align: justify; */
-    /* font-family: 'Montserrat'; */
+    font-family: 'Titan One';
     /* width: 30%;
     margin-left: 150px; */
-    color: black;
-    background-color: rgb(224, 0, 0);
-    /* padding-bottom: 20px;
-    margin-bottom: -20px; */
+    color: white;
+    background-color: #ffca48;
+    padding-bottom: .01px;
+    padding-top: .01px;
+    /* margin-bottom: -20px; */
     /* font-size: 16px; */
+}
+
+body {
+    background-image: url('img/steady-hand-co-nI-mPs7X-js-unsplash.jpg');
+    height: 108vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F7F2E7;
 }
 
 .wrapper{
@@ -19,7 +32,7 @@ header{
 }
 
 footer{
-    background-color: rgb(136, 0, 0);
+    background-color: rgb(192, 0, 0);
     /* width: 83%;
     margin: auto; */
     /* max-width: auto; */
@@ -29,7 +42,7 @@ footer{
 footer p{
     padding: 30px;
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: 'Kaushan Script';
     color: white;
     font-size: 20px;
     font-weight: bold;
@@ -50,4 +63,8 @@ footer p{
     100%{
         bottom: 0px;
     }
+}
+
+.first-word{
+    color: rgb(0, 183, 183);
 }
