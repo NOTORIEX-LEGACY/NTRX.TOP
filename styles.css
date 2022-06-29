@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 
 p {
     font-family: "Indie Flower";
     font-weight: bold;
 }
+
+h3{
+    font-family: "Titan One";
+    font-weight: normal;
+}
+
+h4{
+    font-family: "Concert One";
+    font-weight: bold;
+}
+
 header{
     /* text-align: justify; */
     font-family: 'Titan One';
