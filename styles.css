@@ -34,7 +34,7 @@ header h1:nth-of-type(2){
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     position: relative;
-    animation-delay: .5s;
+    animation-delay: .8s;
     right: -4000px;
 }
 
