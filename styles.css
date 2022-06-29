@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
+p {
+    font-family: "Indie Flower";
+    font-weight: bold;
+}
 header{
     /* text-align: justify; */
     font-family: 'Titan One';
@@ -12,6 +17,44 @@ header{
     padding-top: .01px;
     /* margin-bottom: -20px; */
     /* font-size: 16px; */
+}
+
+header h1:nth-of-type(1){
+    animation-name: header-animate;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: relative;
+    left: -4000px;
+    /* opacity: 0; */
+}
+
+header h1:nth-of-type(2){
+    animation-name: description-animate;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    position: relative;
+    animation-delay: .5s;
+    right: -4000px;
+}
+
+@keyframes header-animate{
+    0%{
+        left: -4000px;
+        /* opacity: 0; */
+    }
+    100%{
+        left: 0px;
+        /* opacity: 1; */
+    }
+}
+
+@keyframes description-animate{
+    0%{
+        right: -4000px;
+    }
+    100%{
+        right: 0px;
+    }
 }
 
 body {
@@ -67,4 +110,10 @@ footer p{
 
 .first-word{
     color: rgb(0, 183, 183);
+}
+
+#descript-header{
+    text-align: right;
+    font-size: 16px;
+    color: #674A40;
 }
