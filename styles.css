@@ -41,6 +41,7 @@ header h1:nth-of-type(1){
     left: -4000px;
     word-wrap: break-word;
     /* opacity: 0; */
+    margin-left: 3%;
 }
 
 header h1:nth-of-type(2){
@@ -51,6 +52,7 @@ header h1:nth-of-type(2){
     animation-delay: .8s;
     right: -4000px;
     word-wrap: break-word;
+    margin-right: 3%;
 }
 
 @keyframes header-animate{
