@@ -192,15 +192,21 @@ footer p{
 a[class = "username"]{
     text-decoration: none;
     color: black;
+    font-family: "Concert One";
+    font-weight: bold;
 }
 
 a[class = "username"]:hover{
     text-decoration: underline;
+    font-family: "Concert One";
+    font-weight: bold;
     color: black;
 }
 
 a[class = "username"]:visited{
     text-decoration: none;
+    font-family: "Concert One";
+    font-weight: bold;
     color: black;
 }
 
