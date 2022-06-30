@@ -187,4 +187,9 @@ footer p{
         text-align: justify;
         grid-column: 2;
     }
+
+    img {
+        width: 70%;
+        height: 70%;
+    }
 }
