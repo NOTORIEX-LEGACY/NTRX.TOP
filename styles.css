@@ -138,12 +138,12 @@ footer p{
     animation-fill-mode: forwards;
     animation-delay: 2s;
     position: relative;
-    bottom: -500px;
+    bottom: -4000px;
 }
 
 @keyframes footer-up{
     0%{
-        bottom: -500px;
+        bottom: -4000px;
     }
     100%{
         bottom: 0px;
