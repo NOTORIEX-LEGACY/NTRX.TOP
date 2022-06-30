@@ -181,6 +181,22 @@ footer p{
     width: 95%;
 }
 
+.blog-post *{
+    margin-left: 6%;
+}
+
+.blog-post i, .blog-post span{
+    margin-left: 0%;
+}
+
+.blog-post h3{
+    margin-left: 3%;
+}
+
+.blog-post a {
+    margin-left: 1%;
+}
+
 .blog-post img{
     display: block;
     margin-left: auto;
