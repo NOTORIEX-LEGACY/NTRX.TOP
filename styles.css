@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
 p {
     font-family: "Indie Flower";
@@ -166,6 +167,43 @@ footer p{
     text-align: center;
 }
 
+.blog-post{
+    background-color: rgb(226, 225, 225);
+}
+
+.normal{
+    font-family: "Baloo 2";
+}
+
+.blog-post{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.blog-post img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 70%;
+}
+
+a[class = "username"]{
+    text-decoration: none;
+    color: black;
+}
+
+a[class = "username"]:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+a[class = "username"]:visited{
+    text-decoration: none;
+    color: black;
+}
+
 @media only screen and (min-width: 768px){
     .wrapper{
         width: 80%;
@@ -188,8 +226,11 @@ footer p{
         grid-column: 2;
     }
 
-    img {
-        width: 70%;
-        height: 70%;
+    #side-content h3, #side-content h4{
+        margin-left: 3%;
+    }
+
+    #side-content p{
+        margin-left: 10%;
     }
 }
