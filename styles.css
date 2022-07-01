@@ -229,6 +229,12 @@ footer p{
     height: 70%;
 }
 
+.blog-post iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a[class = "username"]{
     text-decoration: none;
     color: black;
