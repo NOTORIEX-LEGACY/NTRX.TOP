@@ -171,6 +171,18 @@ footer p{
     background-color: rgb(226, 225, 225);
 }
 
+#blog-pinned{
+    background-color: rgb(230, 213, 213);
+}
+
+#blog-pinned i[title = "Pinned"]{
+    margin-right: 1%;
+}
+
+#blog-pinned h4 i[title = "Pinned"]{
+    margin-left: 0%;
+}
+
 .normal{
     font-family: "Baloo 2";
 }
@@ -213,6 +225,9 @@ footer p{
     }
     #Porkbun:hover{
         color: #F27777;
+    }
+    #NTRX-Homepage:hover{
+        color: red;
     }
 /* } */
 
