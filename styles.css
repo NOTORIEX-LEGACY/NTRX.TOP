@@ -211,6 +211,9 @@ footer p{
     #zai-tm:hover, #Windscribe:hover{
         color: blue;
     }
+    #Porkbun:hover{
+        color: #F27777;
+    }
 /* } */
 
 .blog-post a:visited{
