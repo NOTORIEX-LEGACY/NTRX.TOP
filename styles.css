@@ -307,4 +307,13 @@ a[class = "username"]:visited{
     #side-content p{
         margin-left: 10%;
     }
+
+    .blog-post img{
+        transition-property: all;
+        transition-duration: 1s;
+    }
+    
+    .blog-post img:hover{
+        transform: scale(1.2, 1.2);
+    }
 }
