@@ -203,13 +203,15 @@ footer p{
     text-decoration: underline;
 }
 
-#tmhub:hover{
-    color: green;
-}
+/* CUSTOM HOVER COLOURS {*/
+    #tmhub:hover{
+        color: green;
+    }
 
-#zai-tm:hover{
-    color: blue;
-}
+    #zai-tm:hover, #Windscribe:hover{
+        color: blue;
+    }
+/* } */
 
 .blog-post a:visited{
     color: black;
