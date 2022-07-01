@@ -203,7 +203,7 @@ footer p{
     text-decoration: underline;
 }
 
-a[href *= "tmhub"]:hover{
+#tmhub:hover{
     color: green;
 }
 
