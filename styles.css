@@ -233,6 +233,8 @@ footer p{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
+    height: 50vh;
 }
 
 a[class = "username"]{
