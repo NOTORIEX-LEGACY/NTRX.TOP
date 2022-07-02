@@ -278,6 +278,83 @@ a[class = "username"]:visited{
     color: black;
 }
 
+header > h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+header > h1 a:hover{
+    text-decoration: none;
+}
+
+header > h1 a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.toTop{
+    text-align: center;
+}
+
+.toTop a{
+    color: black;
+
+    /* transition-property: color, color;
+    transition-duration: 1s; */
+
+    animation-name: hover-animate-reverse;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.toTop a:hover{
+    animation-name: hover-animate;
+    animation-duration: .5s;
+    /* animation-timing-function: ease-in; */
+    /* animation-direction: alternate-reverse; */
+    animation-fill-mode: forwards;
+}
+
+/* .toTop:not(:hover){
+    
+} */
+
+@keyframes hover-animate{
+    0%{
+        color: black;
+        font-size: 18px;
+    }
+    50%{
+        color: blue;
+        /* font-size: 25px; */
+    }
+    100%{
+        color: red;
+        font-size: 22px;
+    }
+    /* 100%{
+        color: black;
+    } */
+}
+
+@keyframes hover-animate-reverse{
+    0%{
+        color: red;
+        font-size: 22px;
+    }
+    50%{
+        color: blue;
+        /* font-size: 25px; */
+    }
+    100%{
+        color: black;
+        font-size: 18px;
+    }
+    /* 100%{
+        color: black;
+    } */
+}
+
 @media only screen and (min-width: 768px){
     .wrapper{
         width: 80%;
