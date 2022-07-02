@@ -232,6 +232,9 @@ footer p{
     #Gamebanana:hover{
         color: rgb(176, 176, 1);
     }
+    #VSCode:hover{
+        color: rgb(0, 119, 255);
+    }
 /* } */
 
 .blog-post a:visited{
