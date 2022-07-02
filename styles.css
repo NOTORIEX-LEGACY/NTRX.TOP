@@ -175,12 +175,16 @@ footer p{
     background-color: rgb(230, 213, 213);
 }
 
-#blog-pinned i[title = "Pinned"]{
+#blog-pinned i[title = "Pinned"], #IMPORTANT-BLOG i[title = "IMPORTANT"]{
     margin-right: 1%;
 }
 
-#blog-pinned h4 i[title = "Pinned"]{
+#blog-pinned h4 i[title = "Pinned"], #IMPORTANT-BLOG h4 i[title = "IMPORTANT"]{
     margin-left: 0%;
+}
+
+#IMPORTANT-BLOG {
+    background-color:rgb(236, 236, 225);
 }
 
 .normal{
@@ -220,7 +224,7 @@ footer p{
         color: green;
     }
 
-    #zai-tm:hover, #Windscribe:hover, #GitHub:hover{
+    #zai-tm:hover, #Windscribe:hover, #GitHub:hover, #TMNF-UF-FIX:hover{
         color: blue;
     }
     #Porkbun:hover{
