@@ -229,6 +229,9 @@ footer p{
     #NTRX-Homepage:hover{
         color: red;
     }
+    #Gamebanana:hover{
+        color: rgb(176, 176, 1);
+    }
 /* } */
 
 .blog-post a:visited{
