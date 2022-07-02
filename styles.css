@@ -216,7 +216,7 @@ footer p{
 }
 
 /* CUSTOM HOVER COLOURS {*/
-    #tmhub:hover{
+    #tmhub:hover, #Shields-IO:hover{
         color: green;
     }
 
@@ -234,6 +234,9 @@ footer p{
     }
     #VSCode:hover{
         color: rgb(0, 119, 255);
+    }
+    #Unsplash:hover{
+        color: gray;
     }
 /* } */
 
