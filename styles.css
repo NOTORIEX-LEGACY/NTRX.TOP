@@ -265,7 +265,7 @@ footer p{
     height: 70%;
 }
 
-.blog-post iframe{
+.blog-post iframe, .blog-post video{
     display: block;
     margin-left: auto;
     margin-right: auto;
