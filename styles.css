@@ -242,6 +242,9 @@ footer p{
     #Unsplash:hover{
         color: gray;
     }
+    #DoctoPDF:hover{
+        color: #47A4A5;
+    }
 /* } */
 
 .blog-post a:visited{
