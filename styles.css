@@ -249,6 +249,9 @@ footer p{
     #DoctoPDF:hover{
         color: #47A4A5;
     }
+    #GitHub-Pull-App:hover{
+        color: rgb(21, 125, 116);
+    }
 /* } */
 
 .blog-post a:visited{
