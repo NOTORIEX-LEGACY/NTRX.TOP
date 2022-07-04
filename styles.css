@@ -224,7 +224,7 @@ footer p{
 }
 
 /* CUSTOM HOVER COLOURS {*/
-    #tmhub:hover, #Shields-IO:hover{
+    #tmhub:hover, #Shields-IO:hover, #TranslucentTB:hover{
         color: green;
     }
 
