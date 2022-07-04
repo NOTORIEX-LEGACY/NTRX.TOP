@@ -318,11 +318,11 @@ header > h1 a:visited{
     color: white;
 }
 
-.toTop{
+.bottom-nav{
     text-align: center;
 }
 
-.toTop a{
+.bottom-nav a{
     color: black;
 
     /* transition-property: color, color;
@@ -333,7 +333,7 @@ header > h1 a:visited{
     animation-fill-mode: forwards;
 }
 
-.toTop a:hover{
+.bottom-nav a:hover{
     animation-name: hover-animate;
     animation-duration: .5s;
     /* animation-timing-function: ease-in; */
@@ -341,7 +341,7 @@ header > h1 a:visited{
     animation-fill-mode: forwards;
 }
 
-/* .toTop:not(:hover){
+/* .bottom-nav:not(:hover){
     
 } */
 
