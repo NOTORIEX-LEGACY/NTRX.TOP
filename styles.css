@@ -250,7 +250,10 @@ footer p{
         color: #47A4A5;
     }
     #GitHub-Pull-App:hover{
-        color: rgb(21, 125, 116);
+        color: rgb(237, 201, 47);
+    }
+    #WinDynamicDesktop:hover{
+        color: rgb(179, 171, 127);
     }
 /* } */
 
