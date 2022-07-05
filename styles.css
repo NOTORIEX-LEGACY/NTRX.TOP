@@ -249,9 +249,9 @@ footer p{
     #DoctoPDF:hover, #GlideX:hover, #GitHub-Pull-App:hover{
         color: #47A4A5;
     }
-    /* {
-        color: rgb(237, 201, 47);
-    } */
+    #Cesv:hover{
+        color: rgb(221, 181, 7);
+    }
     #WinDynamicDesktop:hover{
         color: rgb(179, 171, 127);
     }
