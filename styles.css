@@ -384,6 +384,10 @@ header > h1 a:visited{
     } */
 }
 
+#last-commit{
+    text-align: center;
+}
+
 @media only screen and (min-width: 768px){
     .wrapper{
         width: 80%;
