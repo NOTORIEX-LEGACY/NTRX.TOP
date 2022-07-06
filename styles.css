@@ -255,6 +255,9 @@ footer p{
     #WinDynamicDesktop:hover{
         color: rgb(179, 171, 127);
     }
+    #Dark-Reader:hover{
+        color: rgb(48, 110, 125);
+    }
 /* } */
 
 .blog-post a:visited{
