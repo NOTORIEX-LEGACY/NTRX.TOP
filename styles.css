@@ -384,7 +384,7 @@ header > h1 a:visited{
     } */
 }
 
-#last-commit{
+.last-commit{
     text-align: center;
 }
 
