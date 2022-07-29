@@ -276,6 +276,7 @@ footer p{
     margin-right: auto;
     width: 70%;
     height: 70%;
+    border-radius: 5%;
 }
 
 .blog-post iframe, .blog-post video{
@@ -284,6 +285,7 @@ footer p{
     margin-right: auto;
     width: 90%;
     height: 50vh;
+    border-radius: 2%;
 }
 
 a[class = "username"]{
