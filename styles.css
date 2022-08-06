@@ -253,7 +253,7 @@ footer p{
     #Cesv:hover{
         color: rgb(221, 181, 7);
     }
-    #WinDynamicDesktop:hover{
+    #WinDynamicDesktop:hover, #NTRX-CS-Hub:hover{
         color: rgb(179, 171, 127);
     }
     #Dark-Reader:hover{
