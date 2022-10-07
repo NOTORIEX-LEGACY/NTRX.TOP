@@ -235,7 +235,7 @@ footer p{
     font-weight: normal;
     background-color: rgb(255, 202, 72);
     border-radius: 8px;
-    width: 92%;
+    /* width: 98%; */
     padding: 10px;
     margin: auto;
     margin-bottom: -10px;
@@ -415,6 +415,16 @@ header > h1 a:visited{
     text-align: center;
 }
 
+#side-content p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#main-content{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 @media only screen and (min-width: 768px){
     .wrapper{
         width: 80%;
@@ -439,10 +449,6 @@ header > h1 a:visited{
 
     #side-content h3, #side-content h4{
         margin-left: 3%;
-    }
-
-    #side-content p{
-        margin-left: 10%;
     }
 
     .blog-post img{
