@@ -283,6 +283,9 @@ footer p{
     #Dark-Reader:hover{
         color: rgb(48, 110, 125);
     }
+    #avernetronix-ntrx:hover{
+        color: rgb(66, 66, 189);
+    }
 /* } */
 
 .blog-post a:visited{
